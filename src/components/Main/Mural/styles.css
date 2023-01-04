@@ -1,6 +1,5 @@
 .container-mural {
   margin-top: 250px;
-  border: solid hotpink;
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -10,21 +9,97 @@
 
 .texts-mural {
   width: 400px; }
+  @media (max-width: 425px) {
+    .texts-mural {
+      width: 320px; } }
 
 .hashtag-mural {
   color: #8b8b8b;
   font-family: ArgentumMedium;
   font-size: 1.2rem;
   text-align: center; }
+  @media (max-width: 425px) {
+    .hashtag-mural {
+      font-size: 1rem; } }
 
 .title-mural {
   color: #8b8b8b;
   font-family: ArgentumBold;
   font-size: 2.5rem;
   text-align: center; }
+  @media (max-width: 425px) {
+    .title-mural {
+      font-size: 2rem; } }
 
 .fotos-mural {
-  width: 100%;
-  border: solid darkblue; }
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap; }
+  @media (max-width: 900px) {
+    .fotos-mural {
+      width: 100%; } }
+  .fotos-mural img {
+    width: 30%; }
+    @media (max-width: 900px) {
+      .fotos-mural img {
+        width: 45%; } }
+    @media (max-width: 550px) {
+      .fotos-mural img {
+        width: 90%; } }
+
+.goals {
+  margin-top: 48px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+  flex-wrap: wrap; }
+  @media (max-width: 900px) {
+    .goals {
+      width: 100%; } }
+
+.card-grey {
+  background-color: #eeeeee;
+  width: 200px;
+  height: 230px;
+  display: flex;
+  gap: 18px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .card-grey p {
+    text-align: center;
+    color: #005bd5;
+    font-family: ArgentumBold;
+    font-size: 1.3rem; }
+  @media (max-width: 900px) {
+    .card-grey {
+      width: 45%; } }
+  @media (max-width: 550px) {
+    .card-grey {
+      width: 90%; } }
+
+.card-blue {
+  background-color: #005bd5;
+  width: 200px;
+  height: 230px;
+  display: flex;
+  gap: 18px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .card-blue p {
+    text-align: center;
+    color: #fff;
+    font-family: ArgentumBold;
+    font-size: 1.3rem; }
+  @media (max-width: 900px) {
+    .card-blue {
+      width: 45%; } }
+  @media (max-width: 550px) {
+    .card-blue {
+      width: 90%; } }
 
 /*# sourceMappingURL=styles.css.map */
