@@ -1,8 +1,36 @@
 .card-trip {
-  background-color: red;
   width: 50%;
-  height: 500px; }
-  .card-trip p {
-    color: 0; }
+  font-family: ArgentumRegular;
+  padding: 60px 40px 65px 55px; }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px; }
+
+.default-text {
+  font-size: 1rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  display: flex;
+  gap: 20px;
+  display: flex;
+  align-items: center; }
+  .default-text div {
+    height: 1px;
+    width: 40px; }
+
+.title-card {
+  line-height: 65px;
+  font-size: 55px;
+  width: 500px;
+  font-family: ArgentumBlack; }
+
+.sub-title {
+  font-family: ArgentumLight;
+  font-size: 1.3rem;
+  width: 550px;
+  padding-bottom: 30px; }
 
 /*# sourceMappingURL=styles.css.map */
