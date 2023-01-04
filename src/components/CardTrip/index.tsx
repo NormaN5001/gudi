@@ -14,6 +14,7 @@ export default function CardTrip(props: {
   border: string;
   title: string;
   subTitle: string;
+  width: string;
 }) {
   return (
     <div className="card-trip" style={{ backgroundImage: props.bgGradient }}>
@@ -22,7 +23,9 @@ export default function CardTrip(props: {
           <div style={{ backgroundColor: props.bgColorLine }}></div>Viagens
           nacionais
         </p>
-        <h3 className="title-card">{props.title}</h3>
+        <h3 className="title-card" style={{ width: props.width }}>
+          {props.title}
+        </h3>
         <p className="sub-title">{props.subTitle}</p>
         <Button
           textButton="agendar"

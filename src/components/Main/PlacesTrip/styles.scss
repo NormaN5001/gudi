@@ -1,0 +1,43 @@
+.content-placestrip {
+  display: flex;
+  flex-wrap: wrap;
+  @media (max-width: 1024px) {
+    :nth-child(3) {
+      margin-top: 17%;
+    }
+    :nth-child(4) {
+      margin-top: 17%;
+    }
+  }
+  @media (max-width: 768px) {
+    :nth-child(2) {
+      margin-top: 34%;
+    }
+    :nth-child(3) {
+      margin-top: 34%;
+    }
+    :nth-child(4) {
+      margin-top: 34%;
+    }
+  }
+}
+.card-image {
+  width: 25%;
+  position: relative;
+  @media (max-width: 1024px) {
+    width: 50%;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+.image-city {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+.div-button {
+  margin-top: 35%;
+  display: flex;
+  justify-content: center;
+}

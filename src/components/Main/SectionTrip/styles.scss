@@ -1,0 +1,13 @@
+.section-trip {
+  display: flex;
+  flex-wrap: wrap;
+  @media (max-width: 768px) {
+    margin-top: 220px;
+  }
+  img {
+    width: 50%;
+    @media (max-width: 900px) {
+      display: none;
+    }
+  }
+}

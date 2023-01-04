@@ -1,0 +1,29 @@
+.container-mural {
+  margin-top: 250px;
+  border: solid hotpink;
+  @media (max-width: 768px) {
+    margin-top: 380px;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.texts-mural {
+  width: 400px;
+}
+.hashtag-mural {
+  color: #8b8b8b;
+  font-family: ArgentumMedium;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.title-mural {
+  color: #8b8b8b;
+  font-family: ArgentumBold;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.fotos-mural {
+  width: 100%;
+  border: solid darkblue;
+}

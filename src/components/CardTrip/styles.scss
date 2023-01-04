@@ -1,8 +1,10 @@
 .card-trip {
   width: 50%;
   font-family: ArgentumRegular;
-
-  padding: 60px 40px 65px 55px;
+  padding: 70px 40px 65px 55px;
+  @media (max-width: 900px) {
+    width: 100%;
+  }
 }
 .content {
   display: flex;
@@ -22,16 +24,35 @@
     height: 1px;
     width: 40px;
   }
+  @media (max-width: 1280px) {
+    font-size: 0.8rem;
+  }
+  @media (max-width: 768px) {
+    font-size: 0.7rem;
+  }
 }
 .title-card {
   line-height: 65px;
   font-size: 55px;
-  width: 500px;
   font-family: ArgentumBlack;
+  @media (max-width: 1280px) {
+    font-size: 40px;
+  }
+  @media (max-width: 768px) {
+    line-height: 40px;
+    font-size: 30px;
+  }
 }
 .sub-title {
   font-family: ArgentumLight;
   font-size: 1.3rem;
   width: 550px;
   padding-bottom: 30px;
+  @media (max-width: 1280px) {
+    width: 100%;
+    font-size: 1rem;
+  }
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+  }
 }
