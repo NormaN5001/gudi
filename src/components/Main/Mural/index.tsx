@@ -25,12 +25,12 @@ export default function Mural() {
         <h3 className="title-mural">Nosso mural de Experiências</h3>
       </div>
       <div className="fotos-mural">
-        <img src={MuralImg1} alt="Uma foto do mural" />
-        <img src={MuralImg2} alt="Uma foto do mural" />
-        <img src={MuralImg3} alt="Uma foto do mural" />
-        <img src={MuralImg4} alt="Uma foto do mural" />
-        <img src={MuralImg5} alt="Uma foto do mural" />
-        <img src={MuralImg6} alt="Uma foto do mural" />
+        <img src={MuralImg1} alt="Primeira foto do mural" />
+        <img src={MuralImg2} alt="Segunda foto do mural" />
+        <img src={MuralImg3} alt="Terceira foto do mural" />
+        <img src={MuralImg4} alt="Quarta foto do mural" />
+        <img src={MuralImg5} alt="Quinta foto do mural" />
+        <img src={MuralImg6} alt="Sexta foto do mural" />
       </div>
       <div className="goals">
         <div className="card-grey">
