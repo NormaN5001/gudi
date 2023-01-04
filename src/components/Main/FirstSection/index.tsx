@@ -16,7 +16,7 @@ export default function Banner() {
       <div className="content-banner">
         <h1>Para qual estado você deseja ir?</h1>
         <input type="text" placeholder="Pesquisar" />
-        <Button textButton="buscar" bgColor="#005BD5" />
+        <Button textButton="buscar" bgColor="#005BD5" colorFont="" border="" />
       </div>
     </section>
   );
