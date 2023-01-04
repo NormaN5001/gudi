@@ -1,0 +1,14 @@
+button {
+  border-radius: 25px;
+  border: none;
+  height: 45px;
+  font-family: ArgentumSemiBold;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-inline: 26px;
+  @media (max-width: 900px) {
+    height: 35px;
+    font-size: 0.7rem;
+  }
+}
